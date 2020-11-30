@@ -1,0 +1,45 @@
+.container{
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    background: white;
+}
+
+
+table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr, td {
+    color: #858994;
+}
+
+tr {
+    border-bottom: 1px solid #858994;
+    font-weight: normal;
+height: 30px;
+}
+
+
+  thead tr:first-child{
+    border-bottom:  3px solid slategray;
+}
+
+
+td {
+    padding: 9px 8px;
+}
+
+.first_line {
+    background-color: silver;
+}
+
+.job {
+    color: lightgreen;
+    font-weight: 800;
+}
+
+tr:hover td {
+    background: #e8edff;
+}
